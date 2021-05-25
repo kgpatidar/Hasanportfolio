@@ -1,0 +1,94 @@
+.syllabus-main {
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.syllabus-main .syllabus-heading {
+  text-align: center;
+}
+
+.syllabus-main .dropdownboxclose {
+  transition: 0.4s ease-in;
+  border: 0.9px solid #aaa;
+  width: 50%;
+  display: flex;
+  height: 12em;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+  padding-left: 20px;
+  overflow: auto;
+  border-left: 5px solid #55198b;
+}
+
+.syllabus-main .dropdownboxopen {
+  transition: 0.4s ease-out;
+  border: 0.9px solid #aaa;
+  width: 50%;
+  display: flex;
+  height: 25em;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+  padding-left: 20px;
+  overflow: hidden;
+  overflow: auto;
+  border-left: 5px solid #55198b;
+}
+
+.syllabus-main .showmorebtn {
+  width: 50%;
+  background-color: #8860ac;
+  display: flex;
+  height: auto;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  padding-left: 20px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-left: 5px solid #55198b;
+  cursor: pointer;
+}
+
+.underline {
+  border: 0.3px solid #8860ac;
+  width: 50%;
+}
+
+.syllabuschapnum {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #55198b;
+}
+
+.syllabustitle {
+  line-height: 0em;
+}
+
+.syllabusdesc {
+  color: #000;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .syllabus-main .dropdownboxclose {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .syllabus-main .dropdownboxopen {
+    width: 90%;
+    height: 20em;
+    margin-left: 5%;
+  }
+
+  .syllabus-main .showmorebtn {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,96 @@
+.testimonial {
+  background-color: #4f5164;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.testimonial-head {
+  color: #f4f4f4;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #eee;
+  width: 70%;
+  margin-left: 15%;
+  border: 5px solid rgba(141, 115, 165, 0.658);
+  border-radius: 5px;
+}
+
+.arrangecrousal {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.testimonialname {
+  color: #000;
+  margin: 0;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.testimonialpos {
+  color: rgb(82, 75, 75);
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  border-bottom: 0.5px solid rgb(82, 75, 75);
+}
+
+.testimonialquote {
+  text-align: center;
+  color: #000;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 2px solid #f4f4f4;
+  margin: 20px;
+}
+
+.testimonial4_slide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonAction {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.crousalprovider {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .testimonialquote {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .arrangecrousal {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

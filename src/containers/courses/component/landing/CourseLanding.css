@@ -1,0 +1,79 @@
+.course-detail {
+  /* border: 0.7px solid black; */
+  width: 90%;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 4px 4px #ccc;
+}
+
+.course-detail-info {
+  display: block;
+  /* align-items: center; */
+}
+
+.enrollbutton {
+  background-color: #55198b;
+  border: solid 1px #55198b;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.course-detail .course-detail-info h5 {
+  text-align: center;
+  line-height: 0px;
+}
+
+.course-detail .course-detail-info p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 0px;
+}
+
+.enrollbutton:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-3px);
+}
+
+.headcoursetitle {
+  line-height: 1em;
+  color: #000;
+}
+
+.socialincourse {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .enrollbutton {
+    width: 100%;
+  }
+  .course-detail {
+    width: 100%;
+    display: block;
+    padding-top: 1px;
+  }
+
+  .course-detail-info {
+    border-bottom: 1px solid #000;
+  }
+  .course-detail-info p {
+    text-align: center;
+  }
+  .describebox {
+    text-align: center;
+  }
+}

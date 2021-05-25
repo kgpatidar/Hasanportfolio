@@ -1,0 +1,54 @@
+.toolsused {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffff;
+}
+
+.tool-icons {
+  list-style: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tool-list {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.toolLogo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  max-height: 150px;
+  margin-left: 15px;
+}
+
+.toolLogo:hover {
+  transition: 0.3s linear;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .toolLogo {
+    width: 100px;
+    height: 100px;
+    margin-left: 3px;
+  }
+  .toolsused {
+    padding-left: 1%;
+    margin-left: 0;
+  }
+
+  .tool-list {
+    margin-left: 10px;
+  }
+}

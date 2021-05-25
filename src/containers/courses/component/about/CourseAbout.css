@@ -1,0 +1,148 @@
+.about-heading {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.aboutcourse {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.dividline {
+  border-bottom: 3px solid rgb(209, 64, 228);
+  width: 10%;
+  margin-left: 45%;
+}
+
+.about-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box-title {
+  color: #000;
+  text-align: center;
+}
+
+.aboutbox {
+  max-height: 17em;
+  height: 17em;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 33%;
+  margin-left: 15px;
+  background-color: #fff;
+  box-shadow: 2px 2px 0px 0px #ccc;
+}
+
+.aboutbox:hover {
+  transition: 0.3s linear;
+  transform: scale(1.0009);
+  box-shadow: 2px 2px 8px 8px #ddd;
+  cursor: pointer;
+}
+
+.box-divider-line {
+  border: 1px solid #f4f4f4;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.box-content {
+  font-size: 12px;
+  position: absolute;
+  color: #000;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  opacity: 1;
+}
+
+.detailpara {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.detailpara > .box-title {
+  color: #fff;
+}
+
+.imagehead {
+  opacity: 1;
+}
+
+.topofbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagehead > .box-title {
+  margin: 0px;
+}
+
+.topofbox:hover > .imagehead {
+  visibility: hidden;
+}
+
+.topofbox:hover > .detailpara {
+  transition: 0.3s ease-in;
+  opacity: 1;
+  height: auto;
+}
+
+.aboutimage {
+  width: 100%;
+  height: 280px;
+  object-fit: fill;
+}
+
+.about-container {
+  display: flex;
+  width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container {
+    display: inline;
+    width: 50%;
+    justify-content: center;
+  }
+  .aboutbox {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .aboutimage {
+    max-height: 200px;
+    /* margin: 20px; */
+    object-fit: fill;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    display: inline;
+    width: 90%;
+    justify-content: center;
+  }
+  .aboutbox {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .aboutimage {
+    max-height: 200px;
+    object-fit: fill;
+  }
+}
+
+@media screen and (max-width: 1381px) {
+  .aboutimage {
+    max-height: 200px;
+    margin: 0px;
+    object-fit: contain;
+  }
+}

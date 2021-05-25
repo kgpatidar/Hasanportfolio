@@ -1,0 +1,39 @@
+.coursefooter {
+  background-color: #000;
+  color: #f4f4f4;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.linkfromfooter {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.dividerline {
+  border-top: 0.1px solid rgba(238, 238, 238, 0.274);
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footercoursetag {
+  color: aqua;
+}
+
+.footerend {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .coursefooter {
+    text-align: center;
+  }
+  .dividerline {
+    border: 0.25px solid #eee;
+  }
+}
