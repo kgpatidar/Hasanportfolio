@@ -17,10 +17,10 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/hasanali28",
-  linkedin: " https://www.linkedin.com/in/yourdataguy/",
-  facebook: "https://www.facebook.com/learnmlwithhasan",
-  instagram: " https://www.instagram.com/learnmlwithhasan/",
+  github: "https://github.com/",
+  linkedin: " https://www.linkedin.com/in//",
+  facebook: "https://www.facebook.com/",
+  instagram: " https://www.instagram.com//",
   // gmail: "saadpasta70@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // Instagram and Twitter are also supported in the links!
@@ -191,22 +191,10 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/expindianoil.png"),
-      link: "http://iocl.com/",
-    },
-    {
-      image: require("./assets/images/workgail.png"),
-      link: "http://gailonline.com/",
-    },
-    {
-      image: require("./assets/images/workncs.jfif"),
-      link: "https://www.nasscom.in/",
-    },
-    {
-      image: require("./assets/images/workpay.png"),
-      link: "https://www.paymentus.com",
-    },
+    // {
+    //   image: require("./assets/images/expindianoil.png"),
+    //   link: "http://iocl.com/",
+    // },
   ],
 };
 
@@ -222,36 +210,11 @@ const achievementSection = {
       title: "National Startup Competition",
       subtitle:
         "it was funded by renowned VC and Angel and I was the runner up in a national startup competition",
-      image: require("./assets/images/hasanaward.png"),
+      image: require("..image path"),
       footerLink: [
         {
           name: "More Information",
-          url: "https://hasanali28.github.io/about/",
-        },
-      ],
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
-        },
-      ],
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/",
+          url: "link",
         },
       ],
     },
@@ -267,16 +230,10 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "...url",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
     },
   ],
 };
@@ -292,9 +249,9 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
+      subtitle: "Codelab at GDG DevFest",
+      slides_url: "https://bit.ly",
+      event_url: "https://www.facebook.com/events/",
     },
   ],
 };
@@ -307,7 +264,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
+    "https://anchor.fm/codevcast/",
   ],
 };
 
@@ -315,340 +272,18 @@ const contactInfo = {
   title: emoji("Hire Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 8802539664",
-  email_address: "hasan.remote@gmail.com",
+  number: "+91 XXXXXXXXX",
+  email_address: "your email here",
 };
 
 // ---COURSES SECTION
 const CourseSection = {
-  title: "Courses by Hasan",
+  title: "Courses by You",
   subtitle:
     "With Love for Developing cool stuff and Great Hard Work I bring Out Best Courses for You.",
 
   course: [
-    {
-      whatsapplink: "",
-      title: "Advance Machine Learning for Professionals",
-      description: "12th Maths | No Coding Background Required",
-      describe: "With Industry Experts Hasan",
-      totalStudent: "1200+",
-      duration: "3 month",
-      startDate: "31 July, 2020",
-      fees: {
-        inrupees: "12,000",
-        indollar: "160",
-      },
-      syllabus: [
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-      ],
-      about: {
-        box1: {
-          title: "Title Box 1",
-          image: require("./assets/images/courseback.svg"),
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box2: {
-          title: "Title Box 2",
-          image: require("./assets/images/courseback.svg"),
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box3: {
-          image: require("./assets/images/courseback.svg"),
-          title: "Title Box 3",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box4: {
-          image: require("./assets/images/courseback.svg"),
-          title: "Title Box 4",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box5: {
-          title: "Title Box 5",
-          image: require("./assets/images/courseback.svg"),
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box6: {
-          title: "Title Box 6",
-          image: require("./assets/images/courseback.svg"),
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-      },
-      testimonial: [
-        {
-          image:
-            "https://www.orbitmedia.com/wp-content/uploads/2016/08/Andy-Profile-600-400x400.png",
-          name: "Testimonial User 1",
-          position: "Student",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-        {
-          image:
-            "data:image/jpeg;base64,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",
-          name: "Testimonial User 2",
-          position: "Working at XYZ-Company",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-        {
-          image:
-            "https://www.orbitmedia.com/wp-content/uploads/2016/08/Andy-Profile-600-400x400.png",
-          name: "Testimonial User 3",
-          position: "Student",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-      ],
-      tools: [
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-      ],
-    },
-    {
-      whatsapplink: "",
-      title: "Data Science Fundamentals with Python",
-      description: "Age : 14+ | Everyone",
-      describe: "With Industry Experts",
-      totalStudent: "80+",
-      duration: "3 month",
-      startDate: "31 July, 2020",
-      about: {
-        box1: {
-          title: "Title Box 1",
-          image:
-            "https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/5Specialisations__1582631046168.png",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box2: {
-          title: "Title Box 2",
-          image: require("./assets/images/hasanaward.png"),
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box3: {
-          title: "Title Box 3",
-          image:
-            "https://www.webdesignerdepot.com/cdn-origin/uploads/2014/02/featured31.jpg",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box4: {
-          title: "Title Box 4",
-          image:
-            "https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/5Specialisations__1582631046168.png",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box5: {
-          title: "Title Box 5",
-          image:
-            "https://www.iamabiker.com/wp-content/uploads/2013/09/Suzuki-GSX-R-wallpapers-101.jpg",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-        box6: {
-          title: "Title Box 6",
-          image:
-            "https://mk0thinkificig8baqk3.kinstacdn.com/wp-content/uploads/2016/03/Udemy-Course-Pricing-Model.jpg",
-          content:
-            "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        },
-      },
-      testimonial: [
-        {
-          image:
-            "https://www.orbitmedia.com/wp-content/uploads/2016/08/Andy-Profile-600-400x400.png",
-          name: "Testimonial User 1",
-          position: "Student",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-        {
-          image:
-            "data:image/jpeg;base64,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",
-          name: "Testimonial User 2",
-          position: "Working at XYZ-Company",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-        {
-          image:
-            "https://www.orbitmedia.com/wp-content/uploads/2016/08/Andy-Profile-600-400x400.png",
-          name: "Testimonial User 3",
-          position: "Student",
-          quote:
-            "I could probably go into sales for you. Not able to tell you how happy I am with teaching. Without teaching, we would have gone bankrupt by now. I just can't get enough of teaching. I want to get a T-Shirt with teaching on it so I can show it off to everyone.",
-        },
-      ],
-      tools: [
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-        {
-          name: "Pandas",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
-        },
-        {
-          name: "MongoDb",
-          logo: "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
-        },
-        {
-          name: "Keras",
-          logo: "https://keras.io/img/logo.png",
-        },
-        {
-          name: "Tensorflow",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
-        },
-      ],
-      syllabus: [
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-        {
-          title: "Week 1 Chapter 1 Introduction",
-          description:
-            "In this part of the course you will learn basic of all the course how it work",
-        },
-      ],
-      fees: {
-        inrupees: "27,000",
-        indollar: "1100",
-      },
-    },
+    
   ],
 };
 
