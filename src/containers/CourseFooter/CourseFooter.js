@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const CourseFooter = (props) => {
   return (
     <div className="coursefooter">
-      <h2>Learn with Hasan</h2>
+      <h2>Learn with You</h2>
       <p>For Better Tommorow, Learn Today.</p>
       <SocialMedia />
       <div className="dividerline" />
